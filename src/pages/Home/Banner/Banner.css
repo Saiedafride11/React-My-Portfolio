@@ -30,6 +30,10 @@
     animation-name: example;
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     border-top-left-radius: 50px;
@@ -47,4 +51,35 @@
     bottom: 10px;
     left: 40%;
     margin: 0 auto;
+}
+
+@keyframes example{
+    0%{
+        left: 0;
+        top: 40px;
+    }
+    15%{
+        left: 0;
+        top: 0;
+    }
+    30%{
+        left: 0;
+        top: 40px;
+    }
+    45%{
+        left: 0;
+        top: 0;
+    }
+    60%{
+        left: 0;
+        top: 40px;
+    }
+    75%{
+        left: 0;
+        top: 0;
+    }
+    100%{
+        left: 0;
+        top: 100px;
+    }
 }
