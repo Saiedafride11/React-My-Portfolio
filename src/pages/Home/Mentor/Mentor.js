@@ -15,7 +15,7 @@ export default class Mentor extends Component {
       slidesToScroll: 1
     };
     return (
-      <Container className="py-5">
+      <Container className="pb-5">
         <h2 className="text-center">MY <span style={{color: "#e04641"}}>MENTOR'S</span></h2>
         <p className="text-center">It Is A Long Established Fact That A Reader Will Be Of A Page When Established Fact Looking At Its Layout.</p>
         <Slider {...settings} className="text-center">

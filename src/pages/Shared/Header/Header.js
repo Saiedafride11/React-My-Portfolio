@@ -5,6 +5,7 @@ import { faGithub, faLinkedin, faFacebook, faInstagram } from '@fortawesome/free
 import { faPhoneSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import './Header.css';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
                     <Nav.Link href="https://www.linkedin.com/in/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>
                     <Nav.Link href="https://www.facebook.com/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></Nav.Link>
                     <Nav.Link href="https://www.instagram.com/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>
-                    <Nav.Link href="https://github.com/Saiedafride" target="_blank"><Button className="btn-cv">My CV</Button></Nav.Link>
+                    <Nav.Link href="https://drive.google.com/file/d/1L7g-vd7LnA8kDiQiBxP2cD4ezzN5uFpP/view" target="_blank"><Button className="btn-cv">My CV</Button></Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
@@ -31,9 +32,15 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/home">Home</Nav.Link>
+              {/* <Nav.Link as={Link} to="/home">Home</Nav.Link>
               <Nav.Link as={Link} to="/work">Work</Nav.Link>
               <Nav.Link as={Link} to="/about">About</Nav.Link>
+              <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
+              <Nav.Link as={Link} to="/contact">Contact</Nav.Link> */}
+
+              <Nav.Link as={Link} to="/home">Home</Nav.Link>
+              <Nav.Link as={Link} to="/work">Work</Nav.Link>
+              <Nav.Link as={HashLink} to="/home#about">About</Nav.Link>
               <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
               <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             </Nav>

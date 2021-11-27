@@ -3,6 +3,7 @@ import About from '../About/About';
 import Banner from '../Banner/Banner';
 import Do from '../Do/Do';
 import Mentor from '../Mentor/Mentor';
+import MyWork from '../MyWork/MyWork';
 import Skill from '../Skill/Skill';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Banner/>
             <Skill/>
             <Do/>
+            <MyWork/>
             <Mentor/>
             <About/>
         </div>

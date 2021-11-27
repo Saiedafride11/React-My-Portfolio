@@ -1,0 +1,10 @@
+.my-work-btn{
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    border-bottom: 2px solid transparent !important;
+    border-radius: 0px !important;
+}
+.my-work-btn:hover, .my-work-btn:active{
+    border-bottom: 2px solid #e04641 !important;
+}
