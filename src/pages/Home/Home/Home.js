@@ -7,8 +7,9 @@ import MyWork from '../MyWork/MyWork';
 import Skill from '../Skill/Skill';
 
 const Home = () => {
+    document.title = 'Home';
     return (
-        <div>
+        <div id="home">
             <Banner/>
             <Skill/>
             <Do/>

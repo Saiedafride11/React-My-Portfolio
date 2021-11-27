@@ -5,7 +5,7 @@ import './SkillSummery.css';
 const SkillSummery = (props) => {
     const {headline, spanColor, progress} = props.skill;
     return (
-        <div className="skills-wrapper">
+        <div className="skills-wrapper mb-4">
             <h5 className="title-sub pb-2" style={{color : 'darkgrey'}}>{headline}</h5>
             <div className="progress-title">
                 {

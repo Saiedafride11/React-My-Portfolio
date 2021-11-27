@@ -25,8 +25,8 @@ const Do = () => {
         }
     ]
     return (
-        <Container className="py-5">
-            <h2 className="py-5 text-center">WHAT I <span style={{color: "#e04641"}}>DO</span></h2>
+        <Container >
+            <h2 className="pb-5 text-center">WHAT I <span style={{color: "#e04641"}}>DO</span></h2>
             <div className="do-container">
                {
                    does?.map(element => <div className="do-wrapper" key={element.id}>

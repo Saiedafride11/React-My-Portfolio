@@ -5,6 +5,7 @@ import './Blog.css';
 import About from '../Home/About/About';
 
 const Blog = () => {
+    document.title = 'Blog';
     const blogs = [
         {
             "id": "01",
@@ -57,8 +58,8 @@ const Blog = () => {
     ];
     return (
         <>
-            <Container>
-                <h2 className="pt-5 text-center">WELCOME IN <span style={{color: "#e04641"}}>MY BLOG</span></h2>
+            <Container id="blog">
+                <h2 className="text-center" style={{paddingTop: "5rem"}}>WELCOME IN <span style={{color: "#e04641"}}>MY BLOG</span></h2>
                 <p className="text-center text-muted pb-5">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Adipisci, <br/> Tempore. At Illo Aspernatur Soluta Ullam, Earum Sint Maxime <br/> Tempora Reprehenderit.</p>
 
                 <div className="blog-container">

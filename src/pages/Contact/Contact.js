@@ -11,15 +11,17 @@ const Contact = () => {
         <>
             <Container>
                 <div className="contact-container" id="contact">
-                    <div>
-                        <h2 style={{marginTop: '60px'}}>ITS PLEASURE FOR <span style={{color: "#e04641"}}>ME</span></h2>
-                        <Nav className="mx-auto contact-nav">
-                            <Nav.Link href="https://github.com/Saiedafride" target="_blank"><FontAwesomeIcon icon={faGithub} /></Nav.Link>
-                            <Nav.Link href="https://www.linkedin.com/in/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>
-                            <Nav.Link href="https://www.facebook.com/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></Nav.Link>
-                            <Nav.Link href="https://www.instagram.com/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>
-                        </Nav>
-                        <p>Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Unde Veritatis Odit Quis Impedit Accusamus Doloremque? Quibusdam Dolorum Minus Iure Dolores!</p>
+                    <div className="d-flex align-items-center">
+                        <div>
+                            <h2>ITS PLEASURE FOR <span style={{color: "#e04641"}}>ME</span></h2>
+                            <Nav className="mx-auto contact-nav">
+                                <Nav.Link href="https://github.com/Saiedafride" target="_blank"><FontAwesomeIcon icon={faGithub} /></Nav.Link>
+                                <Nav.Link href="https://www.linkedin.com/in/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>
+                                <Nav.Link href="https://www.facebook.com/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></Nav.Link>
+                                <Nav.Link href="https://www.instagram.com/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>
+                            </Nav>
+                            <p>Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Unde Veritatis Odit Quis Impedit Accusamus Doloremque? Quibusdam Dolorum Minus Iure Dolores!</p>
+                        </div>
                     </div>
                     <div className="contact py-3">
                         <form className="row g-3 p-5">

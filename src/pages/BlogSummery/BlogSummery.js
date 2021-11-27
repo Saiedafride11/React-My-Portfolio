@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
-import About from '../Home/About/About';
 
 const BlogSummery = (props) => {
     const {img, title, description, course, date} = props.blog;

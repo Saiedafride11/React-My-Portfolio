@@ -53,6 +53,14 @@
     margin: 0 auto;
 }
 
+/* Button, .btn-cv, .btn, .btn-primary{
+    outline: none !important;
+    border: none !important;
+}
+Button:active, .btn-cv:active, .btn:active, .btn-primary:active{
+    outline: none !important;
+    border: none !important;
+} */
 @keyframes example{
     0%{
         left: 0;
