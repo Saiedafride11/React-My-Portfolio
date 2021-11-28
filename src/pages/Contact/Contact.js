@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faFacebook, faBehanceSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 import './Contact.css';
 import About from '../Home/About/About';
 
@@ -16,9 +16,10 @@ const Contact = () => {
                             <h2>ITS PLEASURE FOR <span style={{color: "#e04641"}}>ME</span></h2>
                             <Nav className="mx-auto contact-nav">
                                 <Nav.Link href="https://github.com/Saiedafride" target="_blank"><FontAwesomeIcon icon={faGithub} /></Nav.Link>
-                                <Nav.Link href="https://www.linkedin.com/in/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>
+                                <Nav.Link href="https://www.behance.net/saiedafride11" target="_blank"><FontAwesomeIcon icon={faBehanceSquare} /></Nav.Link>
                                 <Nav.Link href="https://www.facebook.com/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></Nav.Link>
-                                <Nav.Link href="https://www.instagram.com/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>
+                                <Nav.Link href="https://www.linkedin.com/in/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>
+                                <Nav.Link href="https://www.youtube.com/softzeo" target="_blank"><FontAwesomeIcon icon={faYoutubeSquare} /></Nav.Link>
                             </Nav>
                             <p>Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Unde Veritatis Odit Quis Impedit Accusamus Doloremque? Quibusdam Dolorum Minus Iure Dolores!</p>
                         </div>

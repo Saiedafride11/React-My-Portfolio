@@ -39,6 +39,16 @@ export default class Mentor extends Component {
                 <p className="review-quote"> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
                 <p className="review-quote pb-4" style={{color: '#e04641'}}>Akjm Al-Amin, <strong>European It Solution</strong></p>
           </div>
+          <div className="mentor-wrapper">
+                <div className="pt-3">
+                    <FontAwesomeIcon icon={faQuoteLeft} style={{color: '#e65f78', fontSize: "3rem"}}/>
+                </div>
+                <div className="mx-auto w-100 text-center m-5">
+                    <img className="d-block review-img" src="https://i.ibb.co/Gv8C5S3/tonoy.jpg" alt="" />
+                </div>
+                <p className="review-quote"> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
+                <p className="review-quote pb-4" style={{color: '#e04641'}}>Toufiqul Bari Tonoy, <strong>Shikbe Shobai</strong></p>
+          </div>
         </Slider>
       </Container>
     );

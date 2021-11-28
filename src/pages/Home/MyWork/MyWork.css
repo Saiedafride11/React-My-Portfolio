@@ -7,5 +7,6 @@
 }
 .my-work-btn:hover, .my-work-btn:active{
     border-bottom: 2px solid #e04641 !important;
+    color: #e04641 !important;
 }
 

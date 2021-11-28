@@ -7,11 +7,12 @@ import './Graphics.css';
 const Graphics = () => {
     return (
         <div>
-           <Nav className="work-icon-bar py-3">
-                <Nav.Link href="https://www.behance.net/saiedafride11" target="_blank"><FontAwesomeIcon icon={faBehance} /></Nav.Link><span style={{color: "#e04641", paddingBottom: "10px"}}>Bahance</span>
-                <Nav.Link href="https://dribbble.com/saiedafride11" target="_blank"><FontAwesomeIcon icon={faDribbble} /></Nav.Link><span style={{color: "#e04641", paddingBottom: "10px"}}>Dribbble</span>
-                <Nav.Link href="https://www.flickr.com/photos/saiedafride11" target="_blank"><FontAwesomeIcon icon={faFlickr} /></Nav.Link><span style={{color: "#e04641", paddingBottom: "10px"}}>Flickr</span>
-            </Nav>
+            <h3 className="text-center mx-auto my-5" style={{borderLeft: "4px solid #e04641", width: "370px"}}>Graphics And UI UX Design</h3>
+            <Nav className="work-icon-bar py-3">
+                    <Nav.Link href="https://www.behance.net/saiedafride11" target="_blank"><FontAwesomeIcon icon={faBehance} /></Nav.Link><span style={{color: "#e04641", paddingBottom: "10px"}}>Bahance</span>
+                    <Nav.Link href="https://dribbble.com/saiedafride11" target="_blank"><FontAwesomeIcon icon={faDribbble} /></Nav.Link><span style={{color: "#e04641", paddingBottom: "10px"}}>Dribbble</span>
+                    <Nav.Link href="https://www.flickr.com/photos/saiedafride11" target="_blank"><FontAwesomeIcon icon={faFlickr} /></Nav.Link><span style={{color: "#e04641", paddingBottom: "10px"}}>Flickr</span>
+                </Nav>
         </div>
     );
 };
