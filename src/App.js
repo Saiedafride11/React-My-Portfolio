@@ -20,8 +20,8 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/home" element={<Home />}>
-              <Route path={"/home/ui"} element={<Graphics></Graphics>}></Route>
               <Route path={"/home/web"} element={<Webs></Webs>}></Route>
+              <Route path={"/home/ui"} element={<Graphics></Graphics>}></Route>
             </Route>
             <Route path="/work" element={<AllWorks />} />
             <Route path="/blog" element={<Blog />} />

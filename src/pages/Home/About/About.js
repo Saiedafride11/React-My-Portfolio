@@ -5,6 +5,7 @@ import { faGithub, faLinkedin, faFacebook, faBehanceSquare, faYoutubeSquare } fr
 import { faComments, faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons'
 import './About.css';
 import { HashLink } from 'react-router-hash-link';
+import ScrollToTop from "react-scroll-to-top";
 
 const About = () => {
     return (
@@ -29,8 +30,16 @@ const About = () => {
                     </Nav>
                 </div>
             </Container>
+            <div>
+                <ScrollToTop smooth />
+            </div>
         </div>
     );
 };
 
 export default About;
+
+
+
+
+// npm i react-scroll-to-top

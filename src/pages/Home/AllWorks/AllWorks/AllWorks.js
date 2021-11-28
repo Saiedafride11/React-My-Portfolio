@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Container } from 'react-bootstrap';
+import About from '../../About/About';
 import AllWorksSummery from '../../AllWorksSummery/AllWorksSummery';
 import Graphics from '../../Graphics/Graphics';
 import './AllWorks.css';
@@ -20,6 +21,9 @@ const AllWorks = () => {
                     <AllWorksSummery></AllWorksSummery>
                 </div>
             </Container>
+            <div className="mt-5">
+                <About></About>
+            </div>
         </div>
     );
 };

@@ -4,9 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faFacebook, faBehanceSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 import './Contact.css';
 import About from '../Home/About/About';
+import { useForm, ValidationError } from '@formspree/react';
+
 
 const Contact = () => {
     document.title = 'Contact Us';
+    const [state, handleSubmit] = useForm("mnqwavkv");
+    if (state.succeeded) {
+        return <p>Thanks for joining!</p>;  }
     return (
         <>
             <Container>
@@ -25,7 +30,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="contact py-3">
-                        <form className="row g-3 p-5">
+                        {/* <form className="row g-3 p-5">
                             <div className="col-md-12">
                                 <label htmlFor="fName" className="form-label">First Name</label>
                                 <input type="text" placeholder="First Name..." className="form-control" id="fName"/>
@@ -42,6 +47,25 @@ const Contact = () => {
                             <div className="col-12">
                                 <button type="submit" className="btn w-50 text-white"  style={{backgroundColor: '#e04641'}}>Send Message</button>
                             </div>
+                        </form> */}
+
+                        <form onSubmit={handleSubmit} className="row g-3 p-5">
+                            <div className="col-md-12">
+                                <label htmlFor="email">Email Address</label>
+                            </div>
+                            <div className="col-md-12">
+                                <input className="w-100" id="email" type="email" name="email" placeholder="Email..."/>
+                            </div>
+                            <div className="col-md-12">
+                                <ValidationError prefix="Email" field="email"errors={state.errors}/>
+                            </div>
+                            <div className="col-md-12">
+                                <textarea id="message" name="message" className="w-100 p-2" style={{height:'100px'}} placeholder="Message..."/>
+                            </div>
+                            <div className="col-md-12">
+                                <ValidationError prefix="Message" field="message" errors={state.errors} />
+                            </div>
+                            <button type="submit" disabled={state.submitting} style={{width: "97%", margin:'0 auto', backgroundColor: "#e04641", color: "#fff", border: "none", padding: "5px"}}>Send Message</button>
                         </form>
                     </div>
                 </div>

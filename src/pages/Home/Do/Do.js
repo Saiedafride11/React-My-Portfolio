@@ -7,21 +7,21 @@ const Do = () => {
     const does = [
         {
             "id": "01",
+            "img": "https://www.flaticon.com/premium-icon/icons/svg/1183/1183672.svg",
+            "title": "React Application",
+            "description": "I Have Experience To Build React Applications And I Have Completed Many React Project. I Want To Build More Project With My Experience."
+        },
+        {
+            "id": "02",
             "img": "https://i.imgur.com/mhww2BH.png",
             "title": "Front End Application",
             "description": "I Have 2 Years Of Experience With Front End Development . I Try Will Understand About Client Demand And I Wil Maintain That ."
         },
         {
-            "id": "02",
-            "img": "https://dotnettrickscloud.blob.core.windows.net/uploads/CourseImages/becomeamernstackdeveloper-mobile.png",
-            "title": "MERN-Stack App",
-            "description": "I Have Some Experience On Full Stack On Mern Applications. I Will Done Some Project On Mern Technology. Its Very Interesting For Me."
-        },
-        {
             "id": "03",
-            "img": "https://www.flaticon.com/premium-icon/icons/svg/1183/1183672.svg",
-            "title": "React Application",
-            "description": "I Have Experience To Build React Applications And I Have Completed Many React Project. I Want To Build More Project With My Experience."
+            "img": "https://dotnettrickscloud.blob.core.windows.net/uploads/CourseImages/becomeamernstackdeveloper-mobile.png",
+            "title": "MERN-Stack Application",
+            "description": "I Have Some Experience On Full Stack On Mern Applications. I Will Done Some Project On Mern Technology. Its Very Interesting For Me."
         }
     ]
     return (
