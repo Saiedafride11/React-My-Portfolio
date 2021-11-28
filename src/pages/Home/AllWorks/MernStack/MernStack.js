@@ -1,10 +1,20 @@
 import React from 'react';
-import { Button, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import MyWorkDetails from '../MyWorkDetails/MyWorkDetails';
-import './MyWork.css';
+import { Button, Nav } from "react-bootstrap";
+import { Parallax } from "react-parallax";
+import './MernStack.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
-const works = [
+const styles = {
+  fontFamily: "sans-serif",
+  textAlign: "center"
+};
+
+
+
+
+const mernStacks = [
     {
         "id": "01",
         "img": "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
@@ -47,32 +57,39 @@ const works = [
     }
 ]
 
-const MyWork = () => {
+const MernStack = () => {
     return (
-        <div className="pb-5">
-           <Container>
-                <h2 className="text-center py-5">MY WORK OF <span style={{color: "#e04641"}}>EXPERIENCE</span></h2>
-                <div className="d-flex align-items-center justify-content-center">
-                    <div>
-                        <Link to="">
-                            <Button className="my-work-btn" style={{color: "blue"}} variant="outline-light">UI UX</Button>
-                        </Link>
+        <div className="mern-stack-container m-2">
+            {
+                mernStacks?.map(mernStack => <div key={mernStack.id} className="mern-stack-inner">
+                    <h4 className="text-center py-3"><span style={{color: "#e04641"}}>{mernStack.id}.</span>{mernStack.title}</h4>
+                    <div style={styles}>
+                        <Parallax bgImage={mernStack.img} strength={500}>
+                            <div className="parallax-height"></div> {/* height dite hbe (height: 500px) */}
+                        </Parallax>
                     </div>
-                    <div>
-                        <Link to="">
-                            <Button className="my-work-btn" style={{color: "#e04641"}} variant="outline-light">WEB</Button>
-                        </Link>
+                    <div className="mern-stack-details">
+                        <div>
+                            <h6>Project Summary :</h6>
+                            <p className="mern-stack-paragraph">{mernStack.description}</p>
+                            <div className="py-3">
+                                <p className="text-muted text-uppercase" style={{fontWeight: "bold"}}>using technology</p>
+                                <Button className="btn btn-experience-work">Html</Button>
+                                <Button className="btn btn-experience-work">Css</Button>
+                                <Button className="btn btn-experience-work">Javascript</Button>
+                                <Button className="btn btn-experience-work">React Js</Button>
+                            </div>
+                            <Nav className="py-3">
+                                <Nav.Link href={mernStack.live} target="_blank"><span style={{color: "#e04641"}}>Live Link </span><FontAwesomeIcon icon={faGlobe} style={{color: "#000"}}/></Nav.Link>
+                                <Nav.Link href={mernStack.codeClient} target="_blank"><span style={{color: "#e04641"}}>Code Clint </span><FontAwesomeIcon icon={faGithub} style={{color: "#000"}}/></Nav.Link>
+                                <Nav.Link href={mernStack.codeServer} target="_blank"><span style={{color: "#e04641"}}>Code Server </span><FontAwesomeIcon icon={faGithub} style={{color: "#000"}}/></Nav.Link>
+                            </Nav>
+                        </div>
                     </div>
-                </div>
-
-                <div className="pt-5">
-                    {
-                        works?.map( work => <MyWorkDetails work={work} key={work.id}></MyWorkDetails>)
-                    }
-                </div>
-           </Container>
+                </div>)
+            }
         </div>
     );
 };
 
-export default MyWork;
+export default MernStack;

@@ -154,7 +154,7 @@ const Banner = () => {
                     />
                 </h2>
                 <br />
-                <Button className="btn-cv">Hire Me</Button>
+                <Button className="btn-cv" variant="outline-light">Hire Me</Button>
 
                 <div className="outer-limit mt-5">
                     <Link to="/contact">

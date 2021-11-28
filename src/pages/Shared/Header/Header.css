@@ -21,6 +21,10 @@
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #fff !important;
+    border-bottom: 1px solid transparent !important;
+}
+.header .nav-link:hover {
+    border-bottom: 1px solid #fff !important;
 }
 .top-header-nav{
     display: flex !important;
@@ -41,6 +45,9 @@
     }
     .top-header-nav .nav-link{
         padding: 0rem 0.5rem !important;
+    }
+    .header .navbar-dark .navbar-nav .nav-link {
+        text-align: center !important;
     }
 }
 @media only screen and (min-width: 0px) and (max-width:768px) {

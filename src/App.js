@@ -5,6 +5,7 @@ import NotFound from './pages/NotFound/NotFound';
 import Header from './pages/Shared/Header/Header';
 import Contact from './pages/Contact/Contact';
 import Blog from './pages/Blog/Blog';
+import AllWorks from './pages/Home/AllWorks/AllWorks/AllWorks';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
+            <Route path="/work" element={<AllWorks />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
