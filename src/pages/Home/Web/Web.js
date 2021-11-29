@@ -34,8 +34,8 @@ const Web = (props) => {
                         </div>
                         <Nav className="py-3">
                             <Nav.Link href={live} target="_blank"><span style={{color: "#e04641"}}>Live Link </span><FontAwesomeIcon icon={faGlobe} style={{color: "#000"}}/></Nav.Link>
-                            <Nav.Link href={codeClient} target="_blank"><span style={{color: "#e04641"}}>Code Clint </span><FontAwesomeIcon icon={faGithub} style={{color: "#000"}}/></Nav.Link>
-                            <Nav.Link href={codeServer} target="_blank"><span style={{color: "#e04641"}}>Code Server </span><FontAwesomeIcon icon={faGithub} style={{color: "#000"}}/></Nav.Link>
+                            <Nav.Link href={codeClient} target="_blank"><span style={{color: "#e04641"}}>Front End </span><FontAwesomeIcon icon={faGithub} style={{color: "#000"}}/></Nav.Link>
+                            <Nav.Link href={codeServer} target="_blank"><span style={{color: "#e04641"}}>Back End </span><FontAwesomeIcon icon={faGithub} style={{color: "#000"}}/></Nav.Link>
                         </Nav>
                     </div>
                 </div>

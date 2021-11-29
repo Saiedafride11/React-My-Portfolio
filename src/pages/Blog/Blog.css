@@ -3,15 +3,16 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-@media only screen and (min-width: 280px) and (max-width:492px) {
-    .contact-container{
+
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .blog-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
 @media only screen and (min-width: 280px) and (max-width:767px) {
-    .contact-container{
+    .blog-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }

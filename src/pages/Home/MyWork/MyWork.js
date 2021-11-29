@@ -23,6 +23,11 @@ const MyWork = () => {
                     </div>
                 </div>
                 <Outlet />
+                <div className="text-center py-5">
+                    <Link to="/work">
+                        <Button style={{backgroundColor: 'rgb(224, 70, 65)', border: 'none'}}>View All Works</Button>
+                    </Link>
+                </div>
            </Container>
         </div>
     );

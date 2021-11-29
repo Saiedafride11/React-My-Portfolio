@@ -11,7 +11,7 @@ const Contact = () => {
     document.title = 'Contact Us';
     const [state, handleSubmit] = useForm("mnqwavkv");
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;  }
+        return <p className="text-center mt-5">Thanks for your message</p>;  }
     return (
         <>
             <Container>

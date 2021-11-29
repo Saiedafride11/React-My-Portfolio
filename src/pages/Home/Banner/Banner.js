@@ -5,13 +5,14 @@ import Particles from "react-particles-js"
 import particlesConfig from "./particlesConfig";
 import './Banner.css'
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link/dist/react-router-hash-link.cjs.development';
 
 const Banner = () => {
     return (
         <div className="text-center banner-container">
 
             <div className="banner-animation">
-                <div className="banner-animation">
+                <div>
                     <Particles params={particlesConfig}></Particles>
                 </div>
                 <div className="banner-content text-white">
@@ -22,14 +23,17 @@ const Banner = () => {
                         />
                     </h2>
                     <br />
-                    <Button className="btn-cv" variant="outline-light">Hire Me</Button>
+                    
+                    <Link to="/contact">
+                        <Button className="btn-banner" variant="outline-light">Hire Me</Button>
+                    </Link>
 
                     <div className="outer-limit mt-5">
-                        <Link to="/contact">
+                        <HashLink to="/home#about">
                             <div className="inner">
                                 <div className="sign"></div>
                             </div>
-                        </Link>
+                        </HashLink>
                     </div>
                 </div>
             </div>
