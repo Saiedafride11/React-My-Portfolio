@@ -15,7 +15,7 @@ const Do = () => {
             "id": "02",
             "img": "https://i.imgur.com/mhww2BH.png",
             "title": "Front End Application",
-            "description": "I Have 2 Years Of Experience With Front End Development . I Try Will Understand About Client Demand And I Wil Maintain That ."
+            "description": "I Have 2 Years Of Experience With Front End Development . I Try Will Understand About Client Demand And I Wil Maintain That. Thank you."
         },
         {
             "id": "03",
