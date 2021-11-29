@@ -2,12 +2,12 @@ import './App.css';
 import Home from './pages/Home/Home/Home';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NotFound from './pages/NotFound/NotFound';
-import Header from './pages/Shared/Header/Header';
 import Contact from './pages/Contact/Contact';
 import Blog from './pages/Blog/Blog';
 import AllWorks from './pages/Home/AllWorks/AllWorks/AllWorks';
 import Graphics from './pages/Home/Graphics/Graphics';
 import Webs from './pages/Home/Webs/Webs';
+import Loading from './pages/Shared/Loading/Loading';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
 
       <div>
         <Router>
-          <Header/>
+            <Loading></Loading>
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/home" element={<Home />}>

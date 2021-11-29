@@ -20,7 +20,7 @@ const mernStacks = [
         "img": "https://i.ibb.co/HG4GbXt/autocar.png",
         "title": "AutoCar - Mern Stack Website",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicingelit. Sit sunt officiis inventore vero exercitationem repellendus repudiandae placeat, beatae saepe quasi!",
-        "languages":[ 'React', 'React-Router', 'Firebase- Authentication', 'MongoDB', 'Express Js', 'Node Js', 'netlify Deploy', 'Heroku Deploy'],
+        "languages":[ 'React', 'React-Router', 'React Hook Form', 'Firebase- Authentication', 'MongoDB', 'Express Js', 'Node Js', 'netlify Deploy', 'Heroku Deploy'],
         "live": "https://node-autocar-firebase-auth.web.app/",
         "codeClient": "https://github.com/Saiedafride11/Node-AutoCar-Client-Side",
         "codeServer": "https://github.com/Saiedafride11/Node-AutoCar-Server-Side",

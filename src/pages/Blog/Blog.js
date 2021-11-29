@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import BlogSummery from '../BlogSummery/BlogSummery';
 import './Blog.css';
 import About from '../Home/About/About';
+import Header from '../Shared/Header/Header';
 
 const Blog = () => {
     document.title = 'Blog';
@@ -57,7 +58,8 @@ const Blog = () => {
         }
     ];
     return (
-        <>
+        <>  
+            <Header></Header>
             <Container id="blog">
                 <h2 className="text-center" style={{paddingTop: "5rem"}}>WELCOME IN <span style={{color: "#e04641"}}>MY BLOG</span></h2>
                 <p className="text-center text-muted pb-5">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Adipisci, <br/> Tempore. At Illo Aspernatur Soluta Ullam, Earum Sint Maxime <br/> Tempora Reprehenderit.</p>

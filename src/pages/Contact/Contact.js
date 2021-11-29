@@ -5,6 +5,7 @@ import { faGithub, faLinkedin, faFacebook, faBehanceSquare, faYoutubeSquare } fr
 import './Contact.css';
 import About from '../Home/About/About';
 import { useForm, ValidationError } from '@formspree/react';
+import Header from '../Shared/Header/Header';
 
 
 const Contact = () => {
@@ -13,7 +14,8 @@ const Contact = () => {
     if (state.succeeded) {
         return <p className="text-center mt-5">Thanks for your message</p>;  }
     return (
-        <>
+        <>  
+            <Header></Header>
             <Container>
                 <div className="contact-container" id="contact">
                     <div className="d-flex align-items-center">

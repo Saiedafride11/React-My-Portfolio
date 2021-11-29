@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../../Shared/Header/Header';
 import About from '../About/About';
 import Banner from '../Banner/Banner';
 import Do from '../Do/Do';
@@ -10,6 +11,7 @@ const Home = () => {
     document.title = 'Home';
     return (
         <div id="home">
+            <Header/>
             <Banner/>
             <Skill/>
             <Do/>
