@@ -30,7 +30,7 @@ const mernStacks = [
         "img": "https://i.ibb.co/bb20tDS/tourx.png",
         "title": "TourX- Mern Stack Website",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicingelit. Sit sunt officiis inventore vero exercitationem repellendus repudiandae placeat, beatae saepe quasi!",
-        "languages":[ 'React', 'React-Router', 'React Hook Form', 'Firebase- Authentication', 'MongoDB', 'Express Js', 'Node Js', 'Heroku Deploy'],
+        "languages":[ 'React', 'React-Router', 'React Hook Form', 'Firebase- Authentication', 'MongoDB', 'Express Js', 'Node Js', 'netlify Deploy', 'Heroku Deploy'],
         "live": "https://node-tourx-firebase-auth.web.app/",
         "codeClient": "https://github.com/Saiedafride11/Node-TourX-Client-Side",
         "codeServer": "https://github.com/Saiedafride11/Node-TourX-Server-Side",
@@ -178,16 +178,15 @@ const AllWorksSummery = () => {
                                             height: percentage * 500
                                             }}
                                             >
-                                            
-                                            <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>
-                                                <Nav>
-                                                    <Nav.Link href="https://drive.google.com/file/d/1L7g-vd7LnA8kDiQiBxP2cD4ezzN5uFpP/view" target="_blank"><Button className="btn-all-work-summery">Live Link</Button></Nav.Link>
-                                                </Nav>
-                                            </div>
                                         </div>
                                     </div>
                                   )}
                                 >
+                                <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>
+                                    <Nav>
+                                        <Nav.Link href={mernStack.live} target="_blank"><Button className="btn-all-work-summery">Live Link</Button></Nav.Link>
+                                    </Nav>
+                                </div>
                                 <div className="parallax-height"></div> {/* height dite hbe (height: 500px) */}
                             </Parallax>
                         </div>
@@ -233,16 +232,15 @@ const AllWorksSummery = () => {
                                             height: percentage * 500
                                             }}
                                             >
-                                            
-                                            <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>
-                                                <Nav>
-                                                    <Nav.Link href="https://drive.google.com/file/d/1L7g-vd7LnA8kDiQiBxP2cD4ezzN5uFpP/view" target="_blank"><Button className="btn-all-work-summery">Live Link</Button></Nav.Link>
-                                                </Nav>
-                                            </div>
                                         </div>
                                     </div>
                                   )}
                                 >
+                                <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>
+                                    <Nav>
+                                        <Nav.Link href={react.live} target="_blank"><Button className="btn-all-work-summery">Live Link</Button></Nav.Link>
+                                    </Nav>
+                                </div>
                                 <div className="parallax-height"></div> {/* height dite hbe (height: 500px) */}
                             </Parallax>
                         </div>
@@ -287,16 +285,15 @@ const AllWorksSummery = () => {
                                             height: percentage * 500
                                             }}
                                             >
-                                            
-                                            <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>
-                                                <Nav>
-                                                    <Nav.Link href="https://drive.google.com/file/d/1L7g-vd7LnA8kDiQiBxP2cD4ezzN5uFpP/view" target="_blank"><Button className="btn-all-work-summery">Live Link</Button></Nav.Link>
-                                                </Nav>
-                                            </div>
                                         </div>
                                     </div>
                                   )}
                                 >
+                                <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>
+                                    <Nav>
+                                        <Nav.Link href={javascript.live} target="_blank"><Button className="btn-all-work-summery">Live Link</Button></Nav.Link>
+                                    </Nav>
+                                </div>
                                 <div className="parallax-height"></div> {/* height dite hbe (height: 500px) */}
                             </Parallax>
                         </div>
