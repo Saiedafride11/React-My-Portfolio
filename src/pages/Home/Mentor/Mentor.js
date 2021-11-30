@@ -26,7 +26,7 @@ export default class Mentor extends Component {
                 <div className="mx-auto w-100 text-center my-5">
                     <img className="d-block review-img" src="https://i.imgur.com/ZKi1BAW.jpg" alt="" />
                 </div>
-                <p className="review-quote">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
+                <p className="review-quote">The point of using that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
                 <p className="review-quote pb-4" style={{color: '#e04641'}}>Jhangkar Mahbub, <strong>Programming Hero</strong></p>
           </div>
           <div className="mentor-wrapper">
@@ -36,7 +36,7 @@ export default class Mentor extends Component {
                 <div className="mx-auto w-100 text-center m-5">
                     <img className="d-block review-img" src="https://i.ibb.co/Krwwh5T/akjm.jpg" alt="" />
                 </div>
-                <p className="review-quote"> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
+                <p className="review-quote"> The point of using that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
                 <p className="review-quote pb-4" style={{color: '#e04641'}}>Akjm Al-Amin, <strong>European It Solution</strong></p>
           </div>
           <div className="mentor-wrapper">
@@ -46,7 +46,7 @@ export default class Mentor extends Component {
                 <div className="mx-auto w-100 text-center m-5">
                     <img className="d-block review-img" src="https://i.ibb.co/Gv8C5S3/tonoy.jpg" alt="" />
                 </div>
-                <p className="review-quote"> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
+                <p className="review-quote"> The point of using that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
                 <p className="review-quote pb-4" style={{color: '#e04641'}}>Toufiqul Bari Tonoy, <strong>Shikbe Shobai</strong></p>
           </div>
         </Slider>

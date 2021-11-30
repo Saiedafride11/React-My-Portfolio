@@ -62,7 +62,7 @@ const Blog = () => {
             <Header></Header>
             <Container id="blog">
                 <h2 className="text-center" style={{paddingTop: "5rem"}}>WELCOME IN <span style={{color: "#e04641"}}>MY BLOG</span></h2>
-                <p className="text-center text-muted pb-5">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Adipisci, <br/> Tempore. At Illo Aspernatur Soluta Ullam, Earum Sint Maxime <br/> Tempora Reprehenderit.</p>
+                <p className="text-center text-muted pb-5">My blog Sit Amet Consectetur Adipisicing Elit. Adipisci, <br/> Tempore. At Illo Aspernatur Soluta Ullam, Earum Sint Maxime <br/> Tempora Reprehenderit.</p>
 
                 <div className="blog-container">
                     {
