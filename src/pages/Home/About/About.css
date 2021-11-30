@@ -45,6 +45,11 @@
     color: #fff !important;
     background-color: transparent !important;
 }
+.btn-about:hover{
+    border: 1px solid transparent !important;
+    background-color: #e04641 !important;
+    transition: 1s;
+}
 .styles_scroll-to-top__2A70v{
     background-color: #e04641 !important;
 }

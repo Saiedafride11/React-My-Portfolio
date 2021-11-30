@@ -13,10 +13,7 @@ const AllWorks = () => {
             <div id="work">
                 <Container>
                     <h2 className="text-center" style={{paddingTop: "5rem"}}>WELCOME IN THE <span style={{color: "#e04641"}}>WORK PROJECT</span></h2>
-                    <p className="text-center py-2">I Have 2 Years Experience On Web Development .In This Time Will Build <br/> Many Excellent Project .I Will Try To Maintain Standard Coding Style.I Will <br/> Try To Follow Fully Responsiveness.</p>
-                    <div className="text-center">
-                        <Button className="btn-work" variant="outline-light">Let's go</Button>
-                    </div>
+                    <p className="text-center py-2" style={{color: "grey"}}>I Have 2 Years Experience On Web Development .In This Time Will Build <br/> Many Excellent Project .I Will Try To Maintain Standard Coding Style.I Will <br/> Try To Follow Fully Responsiveness.</p>
                     <div>
                         <Graphics></Graphics>
                     </div>

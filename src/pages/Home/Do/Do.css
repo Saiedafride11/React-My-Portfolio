@@ -8,6 +8,17 @@
     padding: 20px;
     margin: 0 10px 20px;
 }
+.do-btn{
+    border: 1px solid transparent !important;
+    background-color: #e04641 !important;
+    color: #fff !important;
+}
+.do-btn:hover{
+    border: 1px solid #e04641 !important;
+    background-color: transparent !important;
+    color: #e04641 !important;
+    transition: 1s;
+}
 @media only screen and (min-width: 768px) and (max-width:992px) {
     .do-container{
         display: grid;

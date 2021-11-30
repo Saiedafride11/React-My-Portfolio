@@ -15,7 +15,7 @@ const Do = () => {
             "id": "02",
             "img": "https://i.imgur.com/mhww2BH.png",
             "title": "Front End Application",
-            "description": "I Have 2 Years Of Experience With Front End Development . I Try Will Understand About Client Demand And I Wil Maintain That. Thank you."
+            "description": "I Have 2 Years Of Experience With Front End Development . I Try Will Understand About Client Demand And I Wil Maintain That."
         },
         {
             "id": "03",
@@ -34,7 +34,7 @@ const Do = () => {
                         <h4 className="py-2">{element.title}</h4>
                         <p style={{color: "#6c757d"}}>{element.description}</p>
                         <Link to="/contact">
-                            <Button style={{backgroundColor: 'rgb(224, 70, 65)', border: 'none'}}>Contact Me</Button>
+                            <Button className='do-btn'>Contact Me</Button>
                         </Link>
                    </div>)
                }

@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faFacebook, faBehanceSquare, faYoutubeSquare} from '@fortawesome/free-brands-svg-icons'
 import { faPhoneSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import './Header.css';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
@@ -15,7 +14,7 @@ const Header = () => {
                 <Nav className="mx-auto top-header-nav">
                     <Nav.Link href="tel:01730258276" target="_blank" className="top-header-call-mail"><FontAwesomeIcon icon={faPhoneSquare} />&nbsp;+01730258276</Nav.Link>
                     <Nav.Link href="mailto:designer.afride11@gmail.com" target="_blank" className="top-header-call-mail"><FontAwesomeIcon icon={faEnvelope}/>&nbsp;designer.afride11@gmail.com</Nav.Link>
-                    <Nav.Link href="https://github.com/Saiedafride" target="_blank"><FontAwesomeIcon icon={faGithub} /></Nav.Link>
+                    <Nav.Link href="https://github.com/Saiedafride11" target="_blank"><FontAwesomeIcon icon={faGithub} /></Nav.Link>
                     <Nav.Link href="https://www.behance.net/saiedafride11" target="_blank"><FontAwesomeIcon icon={faBehanceSquare} /></Nav.Link>
                     <Nav.Link href="https://www.facebook.com/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></Nav.Link>
                     <Nav.Link href="https://www.linkedin.com/in/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>

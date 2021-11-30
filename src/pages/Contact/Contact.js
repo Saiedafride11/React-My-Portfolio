@@ -6,13 +6,22 @@ import './Contact.css';
 import About from '../Home/About/About';
 import { useForm, ValidationError } from '@formspree/react';
 import Header from '../Shared/Header/Header';
+import Swal from 'sweetalert2/dist/sweetalert2.js';
+import { Link } from 'react-router-dom';
 
 
 const Contact = () => {
     document.title = 'Contact Us';
     const [state, handleSubmit] = useForm("mnqwavkv");
     if (state.succeeded) {
-        return <p className="text-center mt-5">Thanks for your message</p>;  }
+        return Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Thanks for your message',
+            showConfirmButton: false,
+            timer: 2000
+        }) && <Link to="/home"><button className='contact-back-home'>Back Home</button></Link>
+     }
     return (
         <>  
             <Header></Header>
@@ -21,14 +30,18 @@ const Contact = () => {
                     <div className="d-flex align-items-center">
                         <div>
                             <h2>ITS PLEASURE FOR <span style={{color: "#e04641"}}>ME</span></h2>
-                            <Nav className="mx-auto contact-nav">
-                                <Nav.Link href="https://github.com/Saiedafride" target="_blank"><FontAwesomeIcon icon={faGithub} /></Nav.Link>
+                            <Nav className="contact-nav">
+                                <Nav.Link href="https://github.com/Saiedafride11" target="_blank"><FontAwesomeIcon icon={faGithub} /></Nav.Link>
                                 <Nav.Link href="https://www.behance.net/saiedafride11" target="_blank"><FontAwesomeIcon icon={faBehanceSquare} /></Nav.Link>
                                 <Nav.Link href="https://www.facebook.com/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></Nav.Link>
                                 <Nav.Link href="https://www.linkedin.com/in/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>
                                 <Nav.Link href="https://www.youtube.com/softzeo" target="_blank"><FontAwesomeIcon icon={faYoutubeSquare} /></Nav.Link>
                             </Nav>
-                            <p>Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Unde Veritatis Odit Quis Impedit Accusamus Doloremque? Quibusdam Dolorum Minus Iure Dolores!</p>
+                            <p style={{color: 'grey'}}>Hello,
+                                I am Afride from Bangladesh.
+                                If You Need any Web Design, Web Development, Apps, UI UX and Graphic Design Related Project.<br></br>
+                                 Please Contact Me. Thank You...
+                            </p>
                         </div>
                     </div>
                     <div className="contact py-3">
@@ -67,7 +80,7 @@ const Contact = () => {
                             <div className="col-md-12">
                                 <ValidationError prefix="Message" field="message" errors={state.errors} />
                             </div>
-                            <button type="submit" disabled={state.submitting} style={{width: "97%", margin:'0 auto', backgroundColor: "#e04641", color: "#fff", border: "none", padding: "5px"}}>Send Message</button>
+                            <button type="submit" disabled={state.submitting} className="btn-contact">Send Message</button>
                         </form>
                     </div>
                 </div>

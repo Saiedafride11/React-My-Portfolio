@@ -22,13 +22,18 @@
 .navbar-dark .navbar-nav .nav-link {
     color: #fff !important;
     border-bottom: 1px solid transparent !important;
+    border-top: 1px solid transparent !important;
 }
 .header .nav-link:hover {
-    border-bottom: 1px solid #fff !important;
+    border-bottom: 1px solid #e04641 !important;
+    border-top: 1px solid #e04641 !important;
 }
 .top-header-nav{
     display: flex !important;
     align-items: center !important;
+}
+.top-header-nav .nav-link:hover{
+   color: #e04641 !important;
 }
 .btn-cv{
     padding: 7px 30px !important;
@@ -36,6 +41,11 @@
     border: 1px solid #fff !important;
     color: #fff !important;
     background-color: transparent !important;
+}
+.btn-cv:hover{
+    border: 1px solid transparent !important;
+    background-color: #e04641 !important;
+    transition: 1s;
 }
 .sticky-top{
     z-index: 999 !important;

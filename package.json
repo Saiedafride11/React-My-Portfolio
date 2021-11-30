@@ -24,6 +24,7 @@
     "react-scroll-to-top": "^1.0.5",
     "react-slick": "^0.28.1",
     "react-typing-effect": "^2.0.5",
+    "sweetalert2": "^11.2.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

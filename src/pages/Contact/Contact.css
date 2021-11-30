@@ -17,9 +17,50 @@
     background-color: #000;
     color: #fff;
 }
+
+.btn-contact{
+    width: 97% !important;
+    border: 1px solid transparent !important;
+    background-color: #e04641 !important;
+    color: #fff !important;
+    margin:0 auto;
+    padding: 5px !important;
+
+}
+.btn-contact:hover{
+    border: 1px solid #e04641 !important;
+    background-color: transparent !important;
+    color: #e04641 !important;
+    transition: 1s;
+}
+.swal2-icon.swal2-success .swal2-success-ring {
+    border: 0.25em solid #e04641 !important;
+}
+.swal2-icon.swal2-success [class^=swal2-success-line] {
+    background-color: #e04641 !important;
+}
+.contact-back-home{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: #e04641 !important;
+}
 @media only screen and (min-width: 280px) and (max-width:767px) {
     .contact-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .contact-container h2{
+       margin-top: 60px;
+    }
+    .contact-container .nav {
+        display: flex;
+        align-items: center;
+        justify-content:center;
     }
 }

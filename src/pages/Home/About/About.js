@@ -16,14 +16,25 @@ const About = () => {
                     <img className="rounded-circle img-fluid" src="https://i.ibb.co/0MRwsVG/afride.jpg" alt="" />
                 </div>
                 <Nav className="icon-bar py-3">
-                    <Nav.Link href="https://github.com/Saiedafride" target="_blank"><FontAwesomeIcon icon={faGithub} /></Nav.Link>
+                    <Nav.Link href="https://github.com/Saiedafride11" target="_blank"><FontAwesomeIcon icon={faGithub} /></Nav.Link>
                     <Nav.Link href="https://www.behance.net/saiedafride11" target="_blank"><FontAwesomeIcon icon={faBehanceSquare} /></Nav.Link>
                     <Nav.Link href="https://www.facebook.com/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></Nav.Link>
                     <Nav.Link href="https://www.linkedin.com/in/saiedafride11/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>
                     <Nav.Link href="https://www.youtube.com/softzeo" target="_blank"><FontAwesomeIcon icon={faYoutubeSquare} /></Nav.Link>
                 </Nav>
                 <div className="about-details">
-                    <p className="text-light">Enthusiastically in real-life contributes my creative, standard, and impassioned programming knowledge. Quickly learn new things and overcome any kind of problem with interest. Explore more deep programming worlds with enthusiasm and curiosity.</p>
+                    <p className="text-light">Hello,
+                        I am Afride from Bangladesh.
+                        I have 2 years experience in mern stack development. Also 4 years of experience in graphics and ui ux design.
+                        Are you looking for a fresh, creative, unique, professional,
+                        clean and simple work for your company, Blog, website, Business, and Apps???
+                        So, You are right to come place.
+
+                        Looking forward to working with you.
+                        If You Need any Web Design, Web Development, Apps, UI UX and Graphic Design Related Project, Please Contact Me.
+
+                        Thank You...
+                    </p>
                     <Nav className="d-flex align-items-center justify-content-center py-5">
                         <Nav.Link as={HashLink} to="/contact#contact"><Button className="btn-about"><FontAwesomeIcon icon={faComments} /> Talk with me</Button></Nav.Link>
                         <Nav.Link href="https://drive.google.com/file/d/1L7g-vd7LnA8kDiQiBxP2cD4ezzN5uFpP/view" target="_blank"><Button className="btn-about"><FontAwesomeIcon icon={faCloudDownloadAlt} /> Download Resume</Button></Nav.Link>

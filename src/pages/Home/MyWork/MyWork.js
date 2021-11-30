@@ -25,7 +25,7 @@ const MyWork = () => {
                 <Outlet />
                 <div className="text-center py-5">
                     <Link to="/work">
-                        <Button style={{backgroundColor: 'rgb(224, 70, 65)', border: 'none'}}>View All Works</Button>
+                        <Button className='view-all-work-btn'>View All Works</Button>
                     </Link>
                 </div>
            </Container>

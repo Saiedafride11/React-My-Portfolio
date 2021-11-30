@@ -9,4 +9,15 @@
     border-bottom: 2px solid #e04641 !important;
     color: #e04641 !important;
 }
+.view-all-work-btn{
+    border: 1px solid transparent !important;
+    background-color: #e04641 !important;
+    color: #fff !important;
+}
+.view-all-work-btn:hover{
+    border: 1px solid #e04641 !important;
+    background-color: transparent !important;
+    color: #e04641 !important;
+    transition: 1s;
+}
 

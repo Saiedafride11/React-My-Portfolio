@@ -61,6 +61,11 @@
     color: #fff !important;
     background-color: transparent !important;
 }
+.btn-banner:hover{
+    border: 1px solid transparent !important;
+    background-color: #e04641 !important;
+    transition: 1s;
+}
 
 @keyframes example{
     0%{
