@@ -19,7 +19,7 @@ const Banner = () => {
                     <h1>I Am <span style={{color: "#e04641"}}>Saied Afride</span></h1>
                     <h2>
                         <ReactTypingEffect speed='50' eraseSpeed='50' typingDelay='500' eraseDelay='3000'
-                            text={["Web Developer", "Mern Stack Developer", "Font End Developer"]}
+                            text={["UI UX Designer", "Web Developer", "Mern Stack Developer", "Font End Developer"]}
                         />
                     </h2>
                     <br />

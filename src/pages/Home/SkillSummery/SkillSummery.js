@@ -2,6 +2,7 @@ import React from 'react';
 import ProgressBar from 'react-animated-progress-bar';
 import './SkillSummery.css';
 
+
 const SkillSummery = (props) => {
     const {headline, spanColor, progress} = props.skill;
     return (
@@ -23,3 +24,4 @@ const SkillSummery = (props) => {
 };
 
 export default SkillSummery;
+
